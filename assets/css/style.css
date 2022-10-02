@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
+
+navbar {
+    color: #5e5c7f;
+    background-color: #f9f9ff;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    color: #5e5c7f;
+    background-color: #f9f9ff;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #454360;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+a {
+    color: #ff4c60;
+    outline: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+a:hover {
+    color: #353353;
+    text-decoration: none;
+}
+a:focus {
+    outline: 0;
+}
+
+.pbar-text {
+    margin-top: 1px;
+}
+ul.hr {
+    margin: 0;
+    padding: 4px;
+}
+ul.hr li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.techs-container {
+    margin-top: 15px;
+    position: static;
+    display: flex;
+}
+.tech {
+    display: inline-block;
+    margin: 0 auto;
+}
+.pbar-bg {
+    background-color: #464650;
+}
+.card {
+    border-radius: 0.9em;
+}
+.card:hover {
+    background-color: #dcdce68b;
+}
+.card img {
+    border-radius: 0.9em;
+}
+
+.md {
+    background: #212529;
+}
+.md1 {
+    background: #f9f9ff;
+}
