@@ -78,6 +78,7 @@ ul.hr li {
 }
 .card {
     border-radius: 0.9em;
+    background-color: #fbf6ff;
 }
 .card:hover {
     background-color: #dcdce68b;

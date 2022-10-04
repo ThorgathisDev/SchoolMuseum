@@ -3,6 +3,7 @@ function CardClick(element, name, text1, src) {
     document.getElementById("title").innerHTML = name;
     document.getElementById("modal-d").innerHTML = text1;
     document.getElementById("image").src = src;
+    document.getElementById("image1").href = src;
 }
 $(function () {
     $("#Cards").load("shorts/cards.html");
